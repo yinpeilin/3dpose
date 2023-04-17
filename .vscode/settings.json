@@ -1,0 +1,9 @@
+{
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "aiXcoder.showTrayIcon": true,
+    "python.analysis.extraPaths": [
+        "./data_preparation",
+        "./models",
+        "./tools"
+    ]
+}

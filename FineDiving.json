@@ -1,0 +1,49 @@
+{
+    "basic":
+        {
+            "bs_train" : 8,
+            "bs_test" : 1,
+            "workers" : 2,
+            "max_epoch" : 150,
+            "max_frame_length": 100
+        },
+    "model":
+        {
+
+            
+        },
+    
+    "dataSet":
+        {
+            "data_root" : "datasets/FINADiving_MTL_256s",
+            "new_data_root": "datasets/DivingData",
+            "label_path" : "Annotations/fine-grained_annotation_aqa.pkl",
+            "train_split" : "Annotations/train_split.pkl",
+            "test_split" : "Annotations/test_split.pkl",
+            "sub_action" : "Annotations/Sub_action_Types_Table.pkl",
+            "sub_action_result":"Annotations/FineDiving_fine-grained_annotation.pkl",
+            "process_action_result" : "Annotations/PROCESSED_FineDiving_fine-grained_annotation.pkl"
+        }
+    ,
+    
+    "optimizer":
+        {
+            "name" : "Adam",
+            "lr" : 0.001,
+            "weight_decay" : 0.0
+        },
+    "others":
+        {
+            "seed" : 0,
+            "frame_length":150
+        }
+}
+
+
+
+
+
+
+
+
+
