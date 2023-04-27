@@ -9,7 +9,8 @@
 # 运行
 
 - 安装必要库（requirement.txt）,还要安装配置[ffmpeg](https://github.com/FutaAlice/ffmpeg-static-libs/releases)
-- 进入到main.py同级目录下, 直接运行main.py
+- 将下载的模型放入models文件夹下
+- 命令行进入到main.py同级目录下, 运行`python main.py`
 
 
 
